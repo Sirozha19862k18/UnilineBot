@@ -1,1 +1,1 @@
-bot: java -jar build/libs/example_telegram_bot-1.0-all.jar
+web: bundle exec rails server -p $PORT
