@@ -30,12 +30,14 @@ public class Bot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "UnilineServis_bot";
+        final String botName="   "; //Задать имя бота
+        return botName;
     }
 
     @Override
     public String getBotToken() {
-        return "970419760:AAHqAzpOSxxu-y5r5ZBv8DrC-tJvBbHVSro";
+        final String botToken="    "; //Задать токен бота
+        return botToken;
     }
 
     private void processCallbackQuery(Update update) { //метод обработки нажатий кнопок от CallBaqQuere
